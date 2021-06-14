@@ -132,7 +132,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      {breakpoints.xs ? 'this is for mobile only' : 'not mobile'}
+      {breakpoints.sm ? 'this is for mobile only' : 'not mobile'}
       <h1 style={headingStyles}>
         Congratulations
         <br />
